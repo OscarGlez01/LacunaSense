@@ -1,0 +1,3 @@
+0 Clean
+1 Noisy
+2 Unusable
