@@ -158,13 +158,13 @@ st.sidebar.image(str(LOGO_PATH), width=120)
 st.sidebar.markdown("<h2>LacunaSense</h2>", unsafe_allow_html=True)
 st.sidebar.markdown("---")
 
-if st.sidebar.button("Inicio",type="secondary"):
+if st.sidebar.button("Inicio",type="tertiary"):
     st.session_state.screen = "home"
-if st.sidebar.button("Análisis",type="secondary"):
+if st.sidebar.button("Análisis",type="tertiary"):
     st.session_state.screen = "upload"
-if st.sidebar.button("Historial",type="secondary"):
+if st.sidebar.button("Historial",type="tertiary"):
     st.session_state.screen = "history"
-if st.sidebar.button("Sobre de",type="secondary"):
+if st.sidebar.button("Sobre de",type="tertiary"):
     st.session_state.screen = "about"
 
 st.sidebar.markdown("---")
